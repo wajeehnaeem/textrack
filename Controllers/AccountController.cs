@@ -57,6 +57,7 @@ namespace textrackMigration.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<string> SignIn(LoginViewModel model)
         {
             var result = await _signInManager.PasswordSignInAsync(userName: model.Email, password: model.Password, isPersistent: false, lockoutOnFailure: false);
