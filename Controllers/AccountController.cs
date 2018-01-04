@@ -16,7 +16,7 @@ using textrackMigration.Services;
 
 namespace textrackMigration.Controllers
 {
-    [Authorize]
+    
     [Route("[controller]/[action]")]
     public class AccountController : Controller
     {
