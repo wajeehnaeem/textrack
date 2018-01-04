@@ -37,7 +37,12 @@ namespace textrackMigration.Controllers
             _logger = logger;
         }
 
-        [TempData]
+      
+        public AccountController(string errorMessage)
+        {
+            this.ErrorMessage = errorMessage;
+
+        }
         public string ErrorMessage { get; set; }
 
         [HttpGet]
@@ -49,6 +54,13 @@ namespace textrackMigration.Controllers
 
             ViewData["ReturnUrl"] = returnUrl;
             return View();
+        }
+
+        public async Task<string> SignIn(LoginViewModel model)
+        {
+            var result = await _signInManager.PasswordSignInAsync(userName: model.Email, password: model.Password, isPersistent: false, lockoutOnFailure: false);
+            if (result.Succeeded) return "OK";
+            return "FAILED";
         }
 
         [HttpPost]
