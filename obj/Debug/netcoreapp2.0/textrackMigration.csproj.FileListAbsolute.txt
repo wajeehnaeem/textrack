@@ -1,0 +1,12 @@
+/Users/wajeehahmed/textrackMigration/obj/Debug/netcoreapp2.0/textrackMigration.csproj.CoreCompileInputs.cache
+/Users/wajeehahmed/textrackMigration/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/Users/wajeehahmed/textrackMigration/obj/Debug/netcoreapp2.0/textrackMigration.AssemblyInfoInputs.cache
+/Users/wajeehahmed/textrackMigration/obj/Debug/netcoreapp2.0/textrackMigration.AssemblyInfo.cs
+/Users/wajeehahmed/textrackMigration/bin/Debug/netcoreapp2.0/app.db
+/Users/wajeehahmed/textrackMigration/bin/Debug/netcoreapp2.0/textrackMigration.deps.json
+/Users/wajeehahmed/textrackMigration/bin/Debug/netcoreapp2.0/textrackMigration.runtimeconfig.json
+/Users/wajeehahmed/textrackMigration/bin/Debug/netcoreapp2.0/textrackMigration.runtimeconfig.dev.json
+/Users/wajeehahmed/textrackMigration/bin/Debug/netcoreapp2.0/textrackMigration.dll
+/Users/wajeehahmed/textrackMigration/bin/Debug/netcoreapp2.0/textrackMigration.pdb
+/Users/wajeehahmed/textrackMigration/obj/Debug/netcoreapp2.0/textrackMigration.dll
+/Users/wajeehahmed/textrackMigration/obj/Debug/netcoreapp2.0/textrackMigration.pdb
